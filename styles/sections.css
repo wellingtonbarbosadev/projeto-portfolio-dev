@@ -1,0 +1,41 @@
+#projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--gray-500);
+  padding-block: 72px 144px;
+
+  span {
+    margin-bottom: 8px;
+  }
+
+  h2 {
+    margin-bottom: 56px;
+  }
+
+  div {
+    border-radius: 12px;
+    background-color: var(--gray-400);
+    padding: 12px;
+
+    img {
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      margin-bottom: 8px;
+      padding-inline: 4px;
+      font: var(--title-sm);
+      color: var(--gray-100);
+    }
+
+    p {
+      margin-bottom: 5px;
+      padding-inline: 4px;
+      font: var(--text-sm);
+      color: var(--gray-200);
+    }
+  }
+}

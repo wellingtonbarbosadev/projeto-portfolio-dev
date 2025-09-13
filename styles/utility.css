@@ -1,0 +1,48 @@
+.title-lg {
+  font: var(--title-lg);
+}
+
+.title-md {
+  font: var(--title-md);
+}
+
+.title-sm {
+  font: var(--title-sm);
+}
+
+.subtitle {
+  font: var(--subtitle);
+}
+
+.text-md {
+  font: var(--text-md);
+}
+
+.text-sm {
+  font: var(--text-sm);
+}
+
+.txt-gray100 {
+  color: var(--gray-100);
+}
+
+.txt-gray200 {
+  color: var(--gray-200);
+
+}
+
+.txt-gray300 {
+  color: var(--gray-300);
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-col-3 {
+  grid-template-columns: repeat(3, 360px);
+}
+
+.gap-24 {
+  gap: 24px;
+}

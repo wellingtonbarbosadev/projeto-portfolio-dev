@@ -29,3 +29,21 @@
   --text-md: 400 16px/140% var(--maven-pro);
   --text-sm: 400 14px/140% var(--maven-pro);
 }
+
+img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+span.sub-title {
+  color: var(--red);
+}
