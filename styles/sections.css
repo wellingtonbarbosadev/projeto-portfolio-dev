@@ -5,6 +5,7 @@
   flex-direction: column;
   background-color: var(--gray-500);
   padding-block: 72px 144px;
+  
 
   span {
     margin-bottom: 8px;
@@ -17,7 +18,9 @@
   div {
     border-radius: 12px;
     background-color: var(--gray-400);
-    padding: 12px;
+    padd
+    g: 12px;
+    transition: .5s;
 
     img {
       border-radius: 8px;
@@ -34,6 +37,45 @@
     p {
       margin-bottom: 5px;
       padding-inline: 4px;
+      font: var(--text-sm);
+      color: var(--gray-200);
+    }
+
+    &:hover {
+      border: 1px solid var(--gray-100);
+    }
+  }
+}
+
+#services {
+  background-color: var(--gray-600);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: 88px 120px;
+
+  h2 {
+    margin-block: 8px 56px;
+  }
+
+  div {
+    border: 2px solid var(--gray-500);
+    border-radius: 12px;
+    padding: 20px;
+
+    img {
+      width: 48px;
+      aspect-ratio: 1/1;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      font: var(--title-sm);
+      color: var(--gray-100);
+      margin-block: 8px;
+    }
+
+    p {
       font: var(--text-sm);
       color: var(--gray-200);
     }

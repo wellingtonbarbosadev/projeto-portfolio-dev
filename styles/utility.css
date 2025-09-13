@@ -39,8 +39,12 @@
   display: grid;
 }
 
-.grid-col-3 {
-  grid-template-columns: repeat(3, 360px);
+.grid-col-3-330px {
+  grid-template-columns: repeat(3, 330px);
+}
+
+.grid-col-3-280px {
+  grid-template-columns: repeat(3, 280px);
 }
 
 .gap-24 {
