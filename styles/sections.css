@@ -18,9 +18,9 @@
   div {
     border-radius: 12px;
     background-color: var(--gray-400);
-    padd
-    g: 12px;
+    padding: 12px;
     transition: .5s;
+    border: 1px solid transparent;
 
     img {
       border-radius: 8px;
@@ -62,7 +62,12 @@
     border: 2px solid var(--gray-500);
     border-radius: 12px;
     padding: 20px;
+    transition: .5s;
 
+    &:hover {
+      border: 2px solid var(--gray-400);
+    }
+    
     img {
       width: 48px;
       aspect-ratio: 1/1;
